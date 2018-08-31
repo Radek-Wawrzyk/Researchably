@@ -8,14 +8,14 @@
 /*  Footer */
 
 .bg-5 {
-  background: rgba(0, 0, 0, 0) url(../img/footer.png) repeat scroll center center / cover;
+  background: rgba(0, 0, 0, 0) url('./img/footer.png') repeat scroll center center / cover;
 }
 .bg-4 {
-  background: rgba(0, 0, 0, 0) url(../img/wide.png) repeat scroll center center / cover;
+  background: rgba(0, 0, 0, 0) url('./img/wide.png') repeat scroll center center / cover;
 }
 .bg-2 {
-  background: rgba(0, 0, 0, 0) url(../img/counter.png) repeat scroll center center / cover;
+  background: rgba(0, 0, 0, 0) url('./img/counter.png') repeat scroll center center / cover;
 }
 .bg-1 {
-  background: rgba(0, 0, 0, 0) url(../img/white.png) repeat scroll center center / cover;
+  background: rgba(0, 0, 0, 0) url('./img/white.png') repeat scroll center center / cover;
 }
