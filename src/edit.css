@@ -38,3 +38,26 @@
     margin: 0 0 25px 0;
   }
 }
+
+/* Logo */
+
+.navbar-brand img {
+  width: auto;
+  height: 30px;
+}
+.navbar-fixed-top .navbar-brand > img {
+  width: auto;
+}
+
+/* Footer */
+
+.media {
+  display: flex;
+}
+.media-left {
+  position: static !important;
+  margin: 0 10px 0 0;
+}
+.copyright-text {
+  margin: 15px 0 0 0;
+}
