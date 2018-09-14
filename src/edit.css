@@ -1,9 +1,32 @@
+/* Font */
+
+@font-face {
+  font-family: moon;
+  src: url('fonts/Moon2.0-Regular.otf');
+}
+@font-face {
+  font-family: moon-bold;
+  src: url('fonts/Moon2.0-Bold.otf');
+}
+p, html, body {
+  font-family: 'moon', sans-serif !important;
+  word-spacing: -3px !important;
+}
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'moon-bold', sans-serif !important;
+  word-spacing: -15px !important;
+}
+
+/* Hero */
+
 .hero-area {
   background: white;
   color: black;
 }
 .hero-btn {
   background: #0A1A85;
+  padding: 20px 35px !important;
+  border-radius: 40px !important;
 }
 .hero-btn:hover, .hero-btn:focus {
   background: #574C9F
@@ -14,15 +37,30 @@
 
 /* Navbar */ 
 
+.navbar {
+  padding: 10px 0 0 0;
+}
 .navbar.navbar-fixed-top, .navbar  {
-  background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
-  background: rgba(0, 0, 0, 0) linear-gradient(to left, #E91E63 0%, #574C9F 100%) repeat scroll 0 0;
+  background: white;
   box-shadow: 0 0 20px -10px #000;
+}
+.navbar-nav li a.download-btn {
+  border: 1px solid rgba(0, 0, 0, 0.384);
 }
 .navbar-nav li a.download-btn:hover, 
 .navbar-nav li a.download-btn:focus {
   background: #574C9F;
   border-color: #574C9F;
+  color: white;
+}
+.navbar-nav li a {
+  color: black;
+}
+.nav > li > a:focus, .nav > li > a:hover, .nav > .active > a {
+  color: #574C9F;
+}
+.navbar-toggle {
+  background: #574C9F;
 }
 
 /* Scroll up */
@@ -45,7 +83,7 @@
   background: rgba(0, 0, 0, 0) url('./img/counter.png') repeat scroll center center / cover;
 }
 .bg-1 {
-  background: rgba(0, 0, 0, 0) url('./img/white.png') repeat scroll center center / cover;
+  background: rgba(0, 0, 0, 0) url('./img/bc-6.png') repeat scroll center center / cover;
 }
 
 /* SUpporters */
@@ -96,6 +134,8 @@
 
 .about-content > .hero-btn {
   background: #0A1A85;
+  padding: 20px 35px !important;
+  border-radius: 40px !important;
 }
 .about-content > .hero-btn:hover, 
 .about-content > .hero-btn:focus {
@@ -128,6 +168,7 @@
 
 .btn-contact-bg {
   background: #0A1A85;
+  border-radius: 40px !important;
 }
 .btn-contact-bg:hover, 
 .btn-contact-bg:focus {
