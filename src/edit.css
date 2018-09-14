@@ -1,17 +1,45 @@
 .hero-area {
-  background: rgba(0, 0, 0, 0) linear-gradient(to right, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
+  background: white;
+  color: black;
+}
+.hero-btn {
+  background: #0A1A85;
+}
+.hero-btn:hover, .hero-btn:focus {
+  background: #574C9F
+}
+.slider h1, .slider p {
+  color: black;
 }
 
+/* Navbar */ 
 
+.navbar.navbar-fixed-top, .navbar  {
+  background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(to left, #E91E63 0%, #574C9F 100%) repeat scroll 0 0;
+  box-shadow: 0 0 20px -10px #000;
+}
+.navbar-nav li a.download-btn:hover, 
+.navbar-nav li a.download-btn:focus {
+  background: #574C9F;
+  border-color: #574C9F;
+}
 
+/* Scroll up */
 
-/*  Footer */
+#scrollUp {
+  background: #574C9F;
+}
+
+/*  Backgrounds */
 
 .bg-5 {
-  background: rgba(0, 0, 0, 0) url('./img/footer.png') repeat scroll center center / cover;
+  background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(to left, #E91E63 0%, #574C9F 100%) repeat scroll 0 0;
 }
 .bg-4 {
-  background: rgba(0, 0, 0, 0) url('./img/wide.png') repeat scroll center center / cover;
+  background: rgba(0, 0, 0, 0) -webkit-linear-gradient(left, #ff5f6d 0%, #ffb270 100%) repeat scroll 0 0;
+  background: rgba(0, 0, 0, 0) linear-gradient(to left, #E91E63 0%, #574C9F 100%) repeat scroll 0 0;
 }
 .bg-2 {
   background: rgba(0, 0, 0, 0) url('./img/counter.png') repeat scroll center center / cover;
@@ -19,6 +47,8 @@
 .bg-1 {
   background: rgba(0, 0, 0, 0) url('./img/white.png') repeat scroll center center / cover;
 }
+
+/* SUpporters */
 
 .supporters {
   display: flex;
@@ -62,6 +92,16 @@
   margin: 15px 0 0 0;
 }
 
+/* Abouts */
+
+.about-content > .hero-btn {
+  background: #0A1A85;
+}
+.about-content > .hero-btn:hover, 
+.about-content > .hero-btn:focus {
+  background:  #574C9F
+}
+
 /* Benefits */
 
 
@@ -82,4 +122,14 @@
   .benefits-img {
     margin: 25px 0 0 0;
   }
+}
+
+/* Contact */ 
+
+.btn-contact-bg {
+  background: #0A1A85;
+}
+.btn-contact-bg:hover, 
+.btn-contact-bg:focus {
+  background: #574C9F;
 }
