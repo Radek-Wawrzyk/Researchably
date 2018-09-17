@@ -32,7 +32,7 @@ h1,h2,h3,h4,h5,h6 {
   border-radius: 40px !important;
 }
 .hero-btn:hover, .hero-btn:focus {
-  background: #574C9F
+  background: rgb(35, 51, 153);
 }
 .slider h1, .slider p {
   color: black;
@@ -69,7 +69,10 @@ h1,h2,h3,h4,h5,h6 {
 /* Scroll up */
 
 #scrollUp {
-  background: #574C9F;
+  background:#FA5765;
+  color: white;
+  border-radius: 50px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
 }
 
 /*  Backgrounds */
@@ -86,7 +89,7 @@ h1,h2,h3,h4,h5,h6 {
   background: rgba(0, 0, 0, 0) url('./img/counter.png') repeat scroll center center / cover;
 }
 .bg-1 {
-  background: rgba(0, 0, 0, 0) url('./img/bc-6.png') repeat scroll center center / cover;
+  background: none;
 }
 
 /* SUpporters */
