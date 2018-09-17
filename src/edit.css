@@ -48,12 +48,14 @@ h1,h2,h3,h4,h5,h6 {
   box-shadow: 0 0 20px -10px #000;
 }
 .navbar-nav li a.download-btn {
-  border: 1px solid rgba(0, 0, 0, 0.384);
+  background: #574C9F;
+  border-color: #574C9F;
+  color: white;
 }
 .navbar-nav li a.download-btn:hover, 
 .navbar-nav li a.download-btn:focus {
-  background: #574C9F;
-  border-color: #574C9F;
+  background: rgb(35, 51, 153);
+  border-color: rgb(35, 51, 153);
   color: white;
 }
 .navbar-nav li a {
